@@ -46,16 +46,16 @@
     </header>
 
     <aside>
-        <h2>MENU</h2>
+        <h2>WITAJ NA NASZEJ STRONIE!</h2>
+        <h1>Na naszej stronie swoje dane osobowe wpisujesz dobrowolnie i nie bierzemy odpowiedzialności jeśli stanie się coś złego xD.<h1>
         <ul>
-           <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+           <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         </ul>
     </aside>
 <center>
     <main>
-        <h2>Witaj na naszej stronie!</h2>
-        <p>Na naszej stronie swoje dane osobowe wpisujesz dobrowolnie i nie bierzemy odpowiedzialności jeśli stanie się coś złego xD. </p><br>
-        <title>Formularz z Wyświetlaniem Danych</title>
+        
+        <title>TO NIE KREDYT</title>
     <style>
         label {
             display: block;

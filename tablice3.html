@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone'y 2023</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: rgb(255, 255, 255);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .table {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        article {
+            background-color: rgba(119, 103, 85, 0.342);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="table" id="iphone-list">
+        </div>
+    </div>
+
+    <script>
+        const iphones = [
+            { name: "iPhone 15 Pro Max", imageSrc: "1.jpg" },
+            { name: "iPhone 15 Pro", imageSrc: "2.jpg" },
+            { name: "iPhone 15 Plus", imageSrc: "3.jpg" },
+            { name: "iPhone 15", imageSrc: "4.jpg" }
+        ];
+
+        const iphoneList = document.getElementById("iphone-list");
+
+        iphones.forEach((iphone, index) => {
+            iphoneList.innerHTML += `
+                <article>
+                    <img src="${iphone.imageSrc}" alt="Miejsce ${index + 1}">
+                    <p>${iphone.name}</p>
+                </article>
+            `;
+        });
+    </script>
+</body>
+</html>
